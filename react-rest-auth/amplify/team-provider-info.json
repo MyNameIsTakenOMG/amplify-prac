@@ -1,0 +1,31 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-reactrestauth-dev-143321-authRole",
+      "UnauthRoleArn": "arn:aws:iam::550321497998:role/amplify-reactrestauth-dev-143321-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::550321497998:role/amplify-reactrestauth-dev-143321-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-reactrestauth-dev-143321-deployment",
+      "UnauthRoleName": "amplify-reactrestauth-dev-143321-unauthRole",
+      "StackName": "amplify-reactrestauth-dev-143321",
+      "StackId": "arn:aws:cloudformation:us-east-2:550321497998:stack/amplify-reactrestauth-dev-143321/2d548d60-57e4-11ee-89e9-066b0add9217",
+      "AmplifyAppId": "d3vqdbbsfk39v7",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-reactrestauth-dev-143321-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "auth": {
+        "reactrestauth41bb18b5": {}
+      },
+      "function": {
+        "reactrestauthf4ab3691": {
+          "deploymentBucketName": "amplify-reactrestauth-dev-143321-deployment",
+          "s3Key": "amplify-builds/reactrestauthf4ab3691-4c6f6944383250627054-build.zip"
+        },
+        "testRouteLambda": {}
+      },
+      "api": {
+        "reactrestauthapi": {}
+      }
+    }
+  }
+}
