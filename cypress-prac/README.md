@@ -34,3 +34,14 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Best practices using Cypress
+
+- Test unhappy paths
+- Using stable selectors (use data-\* attributes instead of CSS attributes such as id, class, tag. Isolate your selectors from CSS or JS changes)
+- Do not assign return values (using .then() or cypress chaining)
+- Do not test external sites (you may use cy.request() to talk to 3rd party or APIs. If possible, cache the results via cy.session() to avoid repeat visits)
+- Keep tests independent
+- Don't worry about writing tiny tests (cypress will reset states between tests, small tests may hurt performance)
+- Clean up state before tests run
+- Using arbitrary cy.wait() (alias)
